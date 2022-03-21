@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zkr024/modules/issues"
   },
-  "homepage": "https://github.com/zkr024/modules#readme"
+  "homepage": "https://github.com/zkr024/modules#readme",
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
 }
