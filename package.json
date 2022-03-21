@@ -1,0 +1,19 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "Modules process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkr024/modules.git"
+  },
+  "author": "Oscar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zkr024/modules/issues"
+  },
+  "homepage": "https://github.com/zkr024/modules#readme"
+}
