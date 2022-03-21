@@ -1,22 +1,22 @@
-import {awesome} from '../index.js'
-import {form, list, links} from './variables.js';
-import {change} from './section.js'
+import { awesome } from './index';
+import { form, list, links } from './variables';
+import { change } from './section';
 
-export const pressButton = form.addEventListener('submit', (e) => {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
-  let title = document.getElementById('title').value;
-  let author = document.getElementById('author').value;
+  const title = document.getElementById('title').value;
+  const author = document.getElementById('author').value;
   if (title === '' || author === '') {
     alert('missing information');
   } else {
     awesome.addRecord(title, author);
     awesome.local();
-    document.getElementById('title').value = ''; 
+    document.getElementById('title').value = '';
     document.getElementById('author').value = '';
   }
 });
 
-export const removeList = list.addEventListener('click', (e) => {
+list.addEventListener('click', (e) => {
   e.preventDefault();
   if (e.target.innerHTML === 'Remove') {
     const eliminateBook = e.path[1].childNodes[1].childNodes[0].data;
@@ -31,7 +31,3 @@ links.addEventListener('click', (e) => {
     change(selection);
   }
 });
-
-
-
-
