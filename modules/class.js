@@ -1,4 +1,4 @@
-import { list } from './variables.js';
+import {list} from './variables.js';
 export class Awesome {
   constructor() {
     this.data = {};
@@ -6,7 +6,7 @@ export class Awesome {
   }
 
   addRecord(title, author) {
-    this.data = { title, author };
+    this.data = {title, author};
     this.record.push(this.data);
     return this.data;
   }

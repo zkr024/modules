@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zkr024/modules#readme",
   "devDependencies": {
-    "eslint": "^8.11.0"
+    "eslint": "^8.11.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
