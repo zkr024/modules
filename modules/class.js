@@ -1,3 +1,4 @@
+import { list } from './variables.js';
 export class Awesome {
   constructor() {
     this.data = {};

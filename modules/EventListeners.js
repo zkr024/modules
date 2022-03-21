@@ -1,4 +1,4 @@
-import {awesome} from '../index.js'
+import {awesome} from '..index/'
 import {form, list, links} from './variables.js';
 import {change} from './section.js'
 

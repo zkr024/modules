@@ -1,4 +1,4 @@
-import {bookList, contact} from './variables.js';
+import {bookList, contact, form} from './variables.js';
 
 export const change = (selection) => {
     bookList;
