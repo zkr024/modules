@@ -1,4 +1,4 @@
-import {awesome} from '..index/'
+import {awesome} from '../index.js';
 import {form, list, links} from './variables.js';
 import {change} from './section.js'
 
@@ -31,7 +31,3 @@ links.addEventListener('click', (e) => {
     change(selection);
   }
 });
-
-
-
-
