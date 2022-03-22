@@ -21,7 +21,7 @@ Site made with JavaScrip:
 
 ## Live Demo
 
-[Live Demo](https://zkr024.github.io/modules/)
+In progress
 
 ## Getting Started
 
